@@ -21,7 +21,7 @@ class ProductSeeder extends Seeder
                 'description' => 'A powerful gaming laptop with NVIDIA graphics and 16GB RAM.',
                 'price' => 1499.99,
                 'stock' => 5,
-                'image' => 'gaming_laptop.jpg',
+                'image' => 'images/products/gaming_laptop.jpg',
             ],
             [
                 'product_id' => 'PROD002',
@@ -29,7 +29,7 @@ class ProductSeeder extends Seeder
                 'description' => 'Ergonomic wireless mouse with long battery life.',
                 'price' => 29.99,
                 'stock' => 50,
-                'image' => 'wireless_mouse.jpg',
+                'image' => 'images/products/wireless_mouse.jpg',
             ],
             [
                 'product_id' => 'PROD003',
@@ -37,7 +37,7 @@ class ProductSeeder extends Seeder
                 'description' => 'RGB mechanical keyboard with blue switches.',
                 'price' => 89.99,
                 'stock' => 20,
-                'image' => 'mechanical_keyboard.jpg',
+                'image' => 'images/products/mechanical_keyboard.jpg',
             ],
             [
                 'product_id' => 'PROD004',
@@ -45,7 +45,7 @@ class ProductSeeder extends Seeder
                 'description' => 'A 27-inch 4K monitor with high color accuracy.',
                 'price' => 399.99,
                 'stock' => 10,
-                'image' => '4k_monitor.jpg',
+                'image' => 'images/products/4k_monitor.jpg',
             ],
             [
                 'product_id' => 'PROD005',
@@ -53,7 +53,7 @@ class ProductSeeder extends Seeder
                 'description' => 'Over-ear headphones with active noise canceling technology.',
                 'price' => 199.99,
                 'stock' => 15,
-                'image' => 'noise_canceling_headphones.jpg',
+                'image' => 'images/products/noise_canceling_headphones.jpg',
             ],
         ];
 
