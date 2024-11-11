@@ -9,6 +9,7 @@
 <table>
     <thead>
         <tr>
+            <th></th>
             <th><a href="?sort_by=name&sort_direction={{ request('sort_direction') == 'asc' ? 'desc' : 'asc' }}">Name</a></th>
             <th><a href="?sort_by=price&sort_direction={{ request('sort_direction') == 'asc' ? 'desc' : 'asc' }}">Price</a></th>
             <th>Actions</th>
@@ -17,6 +18,7 @@
     <tbody>
         @foreach ($products as $product)
             <tr>
+                <td><img style="height: 100px; width:100px; border-radius:.5%;" src="{{ asset($product->image) }}" alt="{{ $product->name }}"></td>
                 <td>{{ $product->name }}</td>
                 <td>{{ $product->price }}</td>
                 <td>
